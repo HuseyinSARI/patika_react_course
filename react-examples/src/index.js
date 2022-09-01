@@ -13,6 +13,7 @@ import Expenses from "./routes/routing/Expenses";
 import Invoices from "./routes/routing/Invoices";
 import Invoice from "./routes/routing/Invoice";
 import Memo from "./routes/memo/Memo";
+import Context from "./routes/context/Context";
 
 
 
@@ -38,8 +39,7 @@ root.render(
           </Route>
         </Route>
         <Route path='memo' element={<Memo/>} />
-
-
+        <Route path='context' element={<Context/>} />
         <Route path="*"
           element={
             <main style={{ padding: "1rem" }}>

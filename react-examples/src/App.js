@@ -16,6 +16,7 @@ function App() {
         <Link to="/routing">9-Routing </Link> |{" "}
         <Link to="/formik">10-Formik </Link> |{" "}
         <Link to="/memo">11-Memo </Link> |{" "}
+        <Link to="/context">12-Context API </Link> |{" "}
       </nav>
       <Outlet />
     </div>
