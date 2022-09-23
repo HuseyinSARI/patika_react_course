@@ -14,6 +14,7 @@ import Invoices from "./routes/routing/Invoices";
 import Invoice from "./routes/routing/Invoice";
 import Memo from "./routes/memo/Memo";
 import Context from "./routes/context/Context";
+import Palette from './components/palette/Palette';
 
 
 
@@ -40,6 +41,7 @@ root.render(
         </Route>
         <Route path='memo' element={<Memo/>} />
         <Route path='context' element={<Context/>} />
+        <Route path='palette' element={<Palette/>} />
         <Route path="*"
           element={
             <main style={{ padding: "1rem" }}>

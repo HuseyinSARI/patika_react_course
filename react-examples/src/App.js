@@ -17,6 +17,7 @@ function App() {
         <Link to="/formik">10-Formik </Link> |{" "}
         <Link to="/memo">11-Memo </Link> |{" "}
         <Link to="/context">12-Context API </Link> |{" "}
+        <Link to="/palette">13-Palette Socket</Link> | {" "}
       </nav>
       <Outlet />
     </div>
